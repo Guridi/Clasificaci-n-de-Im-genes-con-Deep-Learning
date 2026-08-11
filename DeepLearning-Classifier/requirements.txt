@@ -1,0 +1,14 @@
+# Dependencias del proyecto DeepLearning-Classifier
+# Probado con Python 3.11 (TensorFlow aun no publica ruedas para Python 3.14)
+#
+#   python3.11 -m venv .venv
+#   source .venv/bin/activate
+#   pip install -r requirements.txt
+
+tensorflow-cpu==2.15.1     # usar 'tensorflow==2.15.1' si se dispone de GPU
+numpy<2
+pillow
+matplotlib
+pandas
+h5py
+opencv-python-headless     # requerido por CatDogTraining-2/CatDogTest.py
